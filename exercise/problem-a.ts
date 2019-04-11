@@ -5,9 +5,13 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
+// Game is started
+
 let main: () => void = () => {
     game()
 }
+
+// Game begins by generating random number and asking question
 
 let game: () => void = () => {
 
@@ -16,6 +20,9 @@ let game: () => void = () => {
 
 
 }
+
+// Question is asked about guessing number and results are generated
+
 
 let question: (number: number) => void = (num: number) => {
     rl.question("Please guess your number: ", (input: string) => {
@@ -37,4 +44,4 @@ let question: (number: number) => void = (num: number) => {
 
 
 
-main()
+main();

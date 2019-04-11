@@ -1,3 +1,3 @@
 # INFO 498 Lab 2 Exercise
 
-
+ In terms of documentation there are no descriptive comments about the reasoning about the functions. Names of functions do not provide details about what the functions do, they are too general. Examples are: main, game, question. The main() and game() functions do not receive or return anything, for which one can be removed to call the question() function. Main can be removed and the game() function can begin the game. There is low coupling, since a parameter is passed into the function; except for the main function. There is cohesion except for the main function which can be removed. In terms of correctness, the use of semicolons is highly omitted. Some properties used are not imported, which leads to compiling errors. 
